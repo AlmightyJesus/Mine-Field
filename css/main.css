@@ -1,0 +1,149 @@
+body {
+    background-image: url('../img/6.jpg')
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-family: 'Cambria';
+    font-size: 28px;
+}
+
+.floor {
+    background-color: rgb(255, 228, 181);
+}
+
+.hidden {
+    background-color: gray;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16), 0 5px 8px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
+    font-size: 0;
+}
+
+.explode {
+    background-color: red;
+}
+
+.flagged {
+    background-color: gray;
+}
+
+.clock {
+    margin-bottom: 300px;
+    margin-left: 2px;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: rgb(94, 12, 94);
+}
+
+.button {
+    border: none;
+    color: black;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin-top: 5px;
+    width: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline:0;
+}
+
+#easy {
+    background-color: #4CAF50;
+}
+
+#medium {
+    background-color: gold
+}
+
+#hard {
+    background-color: firebrick;
+}
+
+h1 {
+    color: rgb(123, 104, 238);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 45px;
+}
+
+#bestTime {
+    color: rgb(123, 104, 238)
+}
+
+h1 span:active {
+    padding: 7px;
+}
+
+h1 span {
+    cursor: pointer;
+    outline:0;
+    font-size: 45px;
+
+}
+
+.hint {
+    background-color: white;
+    transition: 1000ms;
+}
+
+.safeclick {
+    border: none;
+    color: black;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin-top: 5px;
+    width: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline:0;
+}
+
+.safeclick:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+    font-size: 0;
+
+}
+
+.button:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(1px);
+}
+.customize{
+    border: none;
+    color: black;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    margin-top: 5px;
+    width: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline:0;
+}
+.lives{
+    color: rgb(123, 104, 238);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 30px;
+}

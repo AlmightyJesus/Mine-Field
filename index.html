@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <title>Mine Field</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="init()">
+    <center>
+        <h1>Its just a Mine Game</h1>
+        <h1><span onclick="init()"></span></h1>
+        <button class="safeclick" onclick="safeClick()">Safe Click!<span> 3 Left!</span>
+        </button>
+        <button class="customize" onclick="customize()">Customize!</button>
+        <table class="center">
+            <tbody class="board"></tbody>
+        </table>
+        <h3 class="lives">Lives Left:  <span>3</span></h3>
+        <button id="easy" class="button" onclick="changeEasy()">Easy</button>
+        <button id="medium" class="button" onclick="changeMedium()">Medium</button>
+        <button id="hard" class="button" onclick="changeHard()">Pro</button>
+    </center>
+    <center>
+        <label class="clock" id="min">00</label>
+        <label class="clock" id="sec">00</label>
+        <h2 id='bestTime'>No Best</h2>
+    </center>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+
+</html>
